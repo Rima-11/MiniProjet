@@ -1,0 +1,12 @@
+
+<table>
+    <tr>
+    <th>NomProduit</th>
+    <th>PrixUnitaire</th>
+  </tr>
+  <tr *ngFor="let produit of panierproduit">
+    <td>{{produit.name}}</td>
+    <td>{{produit.Prix}}</td>
+    <td><button (click)="deleteProduit(produit)">Supprimer</button></td>
+  </tr>
+</table>

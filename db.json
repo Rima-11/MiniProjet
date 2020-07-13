@@ -1,0 +1,38 @@
+{
+  "produits": [
+    {
+      "name": "cafe",
+      "Prix": 2.5,
+      "input": 3,
+      "id": 1,
+      "quantite": -11
+    },
+    {
+      "name": "lait",
+      "Prix": 6587,
+      "input": 4,
+      "id": 2
+    },
+    {
+      "name": "mamo",
+      "Prix": 545,
+      "input": 10,
+      "id": 3
+    }
+  ],
+  "commande": [
+    {
+      "id": 1,
+      "dateCommande": "2020-07-13T11:30:10.298Z",
+      "prixCommande": null,
+      "prod": {
+        "name": "cafe",
+        "Prix": 2.5,
+        "input": 3,
+        "id": 1,
+        "quantite": -11
+      },
+      "quantite": 1
+    }
+  ]
+}
